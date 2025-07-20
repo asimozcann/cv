@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.left h1 {
+  @apply text-white font-semibold;
+}
+.right h1 {
+  @apply text-[#253847] text-2xl font-semibold;
+}
+.right p {
+  @apply my-2 text-balance ;
+}
+.right h2 {
+  @apply font-semibold mt-2 text-lg;
+}
